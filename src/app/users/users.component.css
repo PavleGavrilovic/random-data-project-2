@@ -1,0 +1,18 @@
+#usersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-user {
+  cursor: pointer;
+  width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

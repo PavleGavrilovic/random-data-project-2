@@ -1,0 +1,6 @@
+<div id="userContainer" *ngIf="singleUser">
+  <img [src]="singleUser.picture.medium" alt="photo">
+  <p>{{ singleUser.name.first }} {{ singleUser.name.last }}, {{ user.name.title }}</p>
+  <p>{{ singleUser.email }}</p>
+  <p>{{ singleUser.phone }}</p>
+</div>
